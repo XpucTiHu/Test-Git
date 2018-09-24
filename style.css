@@ -1,0 +1,120 @@
+* {
+	padding: 0;
+	margin: 0;
+	transition: all 0.1s ease-in;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+html,
+body {
+	min-height: 100%;
+}
+
+body {
+	font-family: "Tebuchet MC", Tebuchet, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	border: 25px solid #fff;
+	background-color: #3B3F42;
+	color: white;
+}
+
+.header {
+	text-align: center;
+	background: #4A4F55;
+	padding: 20px 0;
+	color: #A55353;
+}
+
+.last {
+	text-align: center;
+	background: #4A4F55;
+	margin: 0 auto;
+	padding: 20px 0;
+	width: 800px;
+	color: #A55353;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: 600;
+
+}
+h3 {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.page-main {
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 40px 0;
+}
+
+.list {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 0px;
+}
+
+.list li {
+	background: #88849D;
+	border: 0;
+}
+
+.list li:nth-child(2n) {
+	background: #7A7593;
+}
+
+.list li:hover {
+	background: #625e77;
+	border: 5px solid white;
+	border-width: 5px 0;
+}
+
+.list li:active {
+	background: red;
+}
+
+.list [type="checkbox"] {
+	width: 26px;
+	height: 26px;
+	vertical-align: middle;
+	position: relative;
+	top: -2px;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+.list [type="checkbox"]:checked + span {
+	text-decoration: line-through;
+	color: #a3a0b5;
+}
+
+.list [type="checkbox"]:checked + span .tips {
+	color: inherit;
+}
+
+.list label {
+	display: block;
+	cursor: pointer;
+	padding: 15px;
+}
+
+.list .tips {
+	font-size: 60%;
+	color: #cdcbd6;
+	vertical-align: middle;
+}
+
+.list .tips:before {
+	content: ' ( ';
+}
+
+.list .tips:after {
+	content: ' ) ';
+}
